@@ -1,0 +1,11 @@
+Package: UWPalette
+Type: Package
+Title: Compiled University of Washington Web color Palettes
+Version: 0.1.0
+Author: Joel Rosiene, MD
+Maintainer: The package maintainer <jrosiene@uw.edu>
+Description: A simple listing of hex color codes as set forth by https://www.washington.edu/externalaffairs/uwmarketing/toolkits/docs/bg/WebColorPalette.pdf
+    For quick reference and access for UW students/staff/faculty
+License: MIT License
+Encoding: UTF-8
+LazyData: true
