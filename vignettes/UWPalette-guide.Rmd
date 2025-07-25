@@ -1,0 +1,469 @@
+---
+title: "University of Washington Color Palettes in R"
+author: "Joel Rosiene, MD"
+date: "`r Sys.Date()`"
+output: 
+  rmarkdown::html_vignette:
+    toc: true
+    toc_depth: 3
+    fig_width: 7
+    fig_height: 5
+vignette: >
+  %\VignetteIndexEntry{University of Washington Color Palettes in R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.align = "center",
+  fig.width = 7,
+  fig.height = 5
+)
+```
+
+## Introduction
+
+The **UWPalette** package provides comprehensive access to the University of Washington's official web color palettes for use in R data visualization and graphics. This package implements the color schemes defined in UW's brand guidelines, ensuring consistent and professional visual presentations for academic and research purposes.
+
+### Installation
+
+```{r eval=FALSE}
+# Install from GitHub
+devtools::install_github("your-username/UWPalette")
+```
+
+```{r}
+# Load the package
+library(UWPalette)
+```
+
+## Available Color Palettes
+
+The UWPalette package includes four carefully curated palettes based on University of Washington's official brand guidelines:
+
+### Overview of All Palettes
+
+```{r palette-overview}
+# Display basic information about all palettes
+palette_info <- uw_palette_info()
+print(palette_info)
+```
+
+### Visual Overview
+
+```{r palette-display, fig.height=6}
+# Display all palettes visually
+display_uw_palettes()
+```
+
+## Palette Details
+
+### Primary Palette
+
+The primary palette contains the core UW brand colors, featuring the iconic UW Purple as the primary brand color.
+
+```{r primary-palette}
+# Get primary colors
+primary_colors <- uw_palette("primary")
+print(primary_colors)
+
+# Display primary palette
+display_uw_palettes("primary")
+```
+
+### Secondary Palette
+
+The secondary palette includes extended colors with metallics and neutrals that support the primary palette.
+
+```{r secondary-palette}
+# Get secondary colors
+secondary_colors <- uw_palette("secondary")
+print(secondary_colors)
+
+# Display secondary palette
+display_uw_palettes("secondary")
+```
+
+### Accent Palette
+
+The accent palette provides vibrant colors for highlighting and creating visual interest.
+
+```{r accent-palette}
+# Get accent colors
+accent_colors <- uw_palette("accent")
+print(accent_colors)
+
+# Display accent palette
+display_uw_palettes("accent")
+```
+
+### Muted Palette
+
+The muted palette offers subdued tones perfect for backgrounds and subtle design elements.
+
+```{r muted-palette}
+# Get muted colors
+muted_colors <- uw_palette("muted")
+print(muted_colors)
+
+# Display muted palette
+display_uw_palettes("muted")
+```
+
+## Basic Usage
+
+### Getting Colors
+
+```{r basic-usage}
+# Get all colors from a palette
+all_primary <- uw_palette("primary")
+all_secondary <- uw_palette("secondary")
+
+# Get specific number of colors
+three_accent <- uw_palette("accent", 3)
+four_muted <- uw_palette("muted", 4)
+
+print(paste("Primary palette:", paste(all_primary, collapse = ", ")))
+print(paste("First 3 accent colors:", paste(three_accent, collapse = ", ")))
+```
+
+### Palette Information
+
+```{r palette-info}
+# Get detailed information about a specific palette
+accent_info <- uw_palette_info("accent")
+print(accent_info)
+
+# Get summary statistics
+all_info <- uw_palette_info()
+palette_summary <- aggregate(position ~ palette, data = all_info, 
+                           FUN = function(x) length(x))
+colnames(palette_summary) <- c("Palette", "Number_of_Colors")
+print(palette_summary)
+```
+
+## Data Visualization Examples
+
+### Base R Graphics
+
+#### Bar Charts
+
+```{r base-barplot}
+# Create sample data
+categories <- c("Category A", "Category B", "Category C", "Category D", "Category E")
+values <- c(23, 45, 56, 78, 32)
+
+# Bar plot with UW accent colors
+barplot(values, 
+        names.arg = categories,
+        col = uw_palette("accent", 5),
+        main = "Sample Bar Chart with UW Accent Palette",
+        ylab = "Values",
+        las = 2)
+```
+
+#### Pie Charts
+
+```{r base-pie}
+# Pie chart with muted colors
+pie_data <- c(30, 25, 20, 15, 10)
+pie_labels <- c("Research", "Teaching", "Service", "Administration", "Other")
+
+pie(pie_data, 
+    labels = pie_labels,
+    col = uw_palette("muted", 5),
+    main = "Academic Time Allocation\n(UW Muted Palette)")
+```
+
+#### Scatter Plots
+
+```{r base-scatter}
+# Scatter plot with different colors for groups
+set.seed(123)
+n <- 50
+group1 <- data.frame(x = rnorm(n, 2, 1), y = rnorm(n, 2, 1), group = "Group 1")
+group2 <- data.frame(x = rnorm(n, 4, 1), y = rnorm(n, 4, 1), group = "Group 2")
+group3 <- data.frame(x = rnorm(n, 3, 1), y = rnorm(n, 6, 1), group = "Group 3")
+data <- rbind(group1, group2, group3)
+
+# Create the plot
+colors <- uw_palette("secondary", 3)
+plot(data$x, data$y, 
+     col = colors[as.factor(data$group)],
+     pch = 19,
+     main = "Sample Scatter Plot with UW Secondary Colors",
+     xlab = "X Variable",
+     ylab = "Y Variable")
+legend("topright", legend = unique(data$group), 
+       col = colors, pch = 19, title = "Groups")
+```
+
+### Advanced Graphics
+
+#### Heatmaps with Gradients
+
+```{r heatmap}
+# Create sample correlation matrix
+set.seed(123)
+data_matrix <- matrix(rnorm(100), nrow = 10)
+correlation_matrix <- cor(data_matrix)
+
+# Create gradient using UW colors
+uw_grad <- uw_gradient("primary")
+colors_gradient <- uw_grad(50)
+
+# Create heatmap
+heatmap(correlation_matrix,
+        col = colors_gradient,
+        main = "Correlation Heatmap\n(UW Primary Gradient)",
+        symm = TRUE)
+```
+
+#### Multiple Gradients Comparison
+
+```{r gradient-comparison, fig.height=7}
+# Compare different gradient options
+par(mfrow = c(2, 2), mar = c(3, 3, 3, 1))
+
+palettes <- c("primary", "secondary", "accent", "muted")
+for (pal in palettes) {
+  grad_func <- uw_gradient(pal)
+  colors <- grad_func(50)
+  
+  # Create a simple gradient display
+  image(matrix(1:50, nrow = 1), 
+        col = colors, 
+        main = paste("UW", tools::toTitleCase(pal), "Gradient"),
+        axes = FALSE,
+        xlab = "", ylab = "")
+}
+par(mfrow = c(1, 1))  # Reset layout
+```
+
+## Integration with ggplot2
+
+If you have ggplot2 installed, you can easily integrate UW colors:
+
+```{r ggplot-examples, eval=FALSE}
+library(ggplot2)
+
+# Sample data
+sample_data <- data.frame(
+  category = LETTERS[1:6],
+  values = c(23, 45, 56, 78, 32, 12),
+  group = rep(c("Group 1", "Group 2"), each = 3)
+)
+
+# Bar plot with UW colors
+ggplot(sample_data, aes(x = category, y = values, fill = category)) +
+  geom_bar(stat = "identity") +
+  scale_fill_manual(values = uw_palette("accent")) +
+  theme_minimal() +
+  labs(title = "Sample Bar Chart with UW Accent Palette",
+       subtitle = "Demonstrating UWPalette integration with ggplot2",
+       x = "Category", y = "Values") +
+  theme(legend.position = "none")
+
+# Scatter plot with grouped data
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point(size = 3) +
+  scale_color_manual(values = uw_palette("secondary", 3),
+                     name = "Cylinders") +
+  theme_minimal() +
+  labs(title = "MPG vs Weight by Cylinder Count",
+       subtitle = "Using UW Secondary Palette",
+       x = "Weight (1000 lbs)", y = "Miles per Gallon")
+
+# Continuous scale with UW gradient
+gradient_colors <- uw_gradient("muted")(100)
+ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
+  geom_tile() +
+  scale_fill_gradientn(colors = gradient_colors) +
+  theme_minimal() +
+  labs(title = "Old Faithful Eruptions",
+       subtitle = "Using UW Muted Gradient",
+       x = "Waiting Time (minutes)", 
+       y = "Eruption Duration (minutes)",
+       fill = "Density")
+```
+
+## Custom ggplot2 Scales
+
+You can create custom ggplot2 scale functions for easier integration:
+
+```{r custom-scales, eval=FALSE}
+# Custom discrete color scale
+scale_color_uw <- function(palette = "primary", ...) {
+  ggplot2::discrete_scale("colour", "uw", 
+                         function(n) uw_palette(palette, n), ...)
+}
+
+# Custom discrete fill scale  
+scale_fill_uw <- function(palette = "primary", ...) {
+  ggplot2::discrete_scale("fill", "uw", 
+                         function(n) uw_palette(palette, n), ...)
+}
+
+# Usage example
+ggplot(sample_data, aes(x = category, y = values, fill = group)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  scale_fill_uw("accent") +
+  theme_minimal() +
+  labs(title = "Using Custom UW Scale Functions")
+```
+
+## Advanced Features
+
+### Color Interpolation
+
+```{r interpolation}
+# Create smooth gradients between UW colors
+primary_gradient <- uw_gradient("primary")
+accent_gradient <- uw_gradient("accent")
+
+# Generate different numbers of colors
+colors_5 <- primary_gradient(5)
+colors_10 <- primary_gradient(10)
+colors_20 <- primary_gradient(20)
+
+print("5 colors from primary gradient:")
+print(colors_5)
+
+print("10 colors from primary gradient:")
+print(colors_10)
+```
+
+### Reversed Gradients
+
+```{r reversed-gradients, fig.height=4}
+# Compare normal and reversed gradients
+par(mfrow = c(2, 1), mar = c(2, 3, 3, 1))
+
+# Normal gradient
+normal_grad <- uw_gradient("accent")
+image(matrix(1:50, nrow = 1), col = normal_grad(50), 
+      main = "Normal Accent Gradient", axes = FALSE)
+
+# Reversed gradient
+reversed_grad <- uw_gradient("accent", reverse = TRUE)
+image(matrix(1:50, nrow = 1), col = reversed_grad(50), 
+      main = "Reversed Accent Gradient", axes = FALSE)
+
+par(mfrow = c(1, 1))  # Reset layout
+```
+
+### Combining Multiple Palettes
+
+```{r combined-palettes}
+# Create a custom palette combining colors from different UW palettes
+custom_palette <- c(
+  uw_palette("primary", 1),    # UW Purple
+  uw_palette("accent", 2),     # Bright Gold and Forest Green
+  uw_palette("muted", 2)       # Muted Gold and Olive Green
+)
+
+print("Custom combined palette:")
+print(custom_palette)
+
+# Use in visualization
+barplot(1:5, col = custom_palette,
+        main = "Custom Palette Combining UW Colors",
+        names.arg = c("UW Purple", "Bright Gold", "Forest Green", 
+                      "Muted Gold", "Olive Green"),
+        las = 2, cex.names = 0.8)
+```
+
+## Best Practices
+
+### Color Accessibility
+
+When using UW colors, consider these accessibility guidelines:
+
+1. **Contrast Ratios**: Ensure sufficient contrast between text and background colors
+2. **Color Blindness**: Test visualizations with color blindness simulators
+3. **Grayscale Conversion**: Verify that meaning is preserved in grayscale
+
+```{r accessibility-demo}
+# Example: Using high contrast combinations
+high_contrast <- c(
+  uw_palette("primary", 1),    # UW Purple
+  uw_palette("secondary")[4],  # Black
+  uw_palette("secondary")[5]   # White
+)
+
+print("High contrast color combination:")
+print(high_contrast)
+```
+
+### Palette Selection Guidelines
+
+- **Primary**: Use for main branding elements and primary visual hierarchy
+- **Secondary**: Ideal for text, backgrounds, and secondary design elements  
+- **Accent**: Use sparingly for highlighting important information
+- **Muted**: Perfect for backgrounds and subtle design elements
+
+### Professional Presentations
+
+```{r professional-example}
+# Example of a professional color scheme
+professional_scheme <- list(
+  title_color = uw_palette("primary", 1),      # UW Purple for titles
+  text_color = uw_palette("secondary")[4],     # Black for body text
+  accent_color = uw_palette("accent", 1),      # Bright Gold for highlights
+  background_color = uw_palette("secondary")[5] # White for backgrounds
+)
+
+print("Professional color scheme:")
+str(professional_scheme)
+```
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Invalid palette names**: Check available palettes with `names(uw_palettes)`
+2. **Requesting too many colors**: The function will return available colors if `n` exceeds palette size
+3. **Integration with other packages**: Ensure color vectors are properly formatted
+
+```{r troubleshooting}
+# Check available palettes
+print("Available palettes:")
+print(names(uw_palettes))
+
+# Check palette sizes
+palette_sizes <- sapply(uw_palettes, length)
+print("Palette sizes:")
+print(palette_sizes)
+
+# Safe color selection (won't exceed available colors)
+safe_colors <- uw_palette("primary", 10)  # Only returns 2 colors
+print(paste("Requested 10 colors from primary, got:", length(safe_colors)))
+```
+
+## Conclusion
+
+The UWPalette package provides a comprehensive and easy-to-use interface for incorporating University of Washington's official colors into R visualizations. Whether you're creating simple charts or complex data visualizations, these brand-compliant color schemes ensure professional and consistent visual presentations.
+
+### Key Features Summary
+
+- **Four comprehensive palettes**: Primary, Secondary, Accent, and Muted
+- **Flexible color selection**: Get any number of colors from each palette
+- **Gradient support**: Create smooth color transitions for continuous data
+- **Easy integration**: Works seamlessly with base R graphics and ggplot2
+- **Comprehensive documentation**: Detailed help and examples for all functions
+
+### Getting Help
+
+For additional help and examples:
+
+- Use `?uw_palette` for function documentation
+- Use `?uw_palettes` for palette data information  
+- Check the package README on GitHub
+- View function examples with `example(uw_palette)`
+
+---
+
+*This vignette demonstrates the core functionality of the UWPalette package. For the most up-to-date information and additional examples, please visit the package GitHub repository.*

@@ -1,11 +1,28 @@
 Package: UWPalette
 Type: Package
-Title: Compiled University of Washington Web color Palettes
+Title: University of Washington Color Palettes for R
 Version: 0.1.0
 Author: Joel Rosiene, MD
-Maintainer: The package maintainer <jrosiene@uw.edu>
-Description: A simple listing of hex color codes as set forth by https://www.washington.edu/externalaffairs/uwmarketing/toolkits/docs/bg/WebColorPalette.pdf
-    For quick reference and access for UW students/staff/faculty
-License: MIT License
+Maintainer: Joel Rosiene <jrosiene@uw.edu>
+Description: Provides comprehensive access to University of Washington's official 
+    web color palettes for data visualization and graphics in R. This package 
+    implements the color schemes defined in UW's brand guidelines, ensuring 
+    consistent and professional visual presentations. Includes four curated 
+    palettes (primary, secondary, accent, muted) with utility functions for 
+    color selection, gradient creation, and palette visualization. Compatible 
+    with base R graphics, ggplot2, and other visualization packages.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Depends: R (>= 3.5.0)
+Imports: 
+    grDevices,
+    tools
+Suggests: 
+    ggplot2,
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/your-username/UWPalette
+BugReports: https://github.com/your-username/UWPalette/issues
+RoxygenNote: 7.2.3
