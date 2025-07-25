@@ -232,8 +232,8 @@ sapply(uw_palettes, length)
 
 | Color Name | Hex Code | Preview |
 |------------|----------|---------|
-| UW Purple (Primary Brand) | `#39275B` | ![#39275B](https://via.placeholder.com/20/39275B/000000?text=+) |
-| Light Purple (Complementary) | `#DFDDE8` | ![#DFDDE8](https://via.placeholder.com/20/DFDDE8/000000?text=+) |
+| UW Purple (Primary Brand) | `#39275B` | ![](https://img.shields.io/badge/color-39275B-39275B?style=flat-square&logo=) |
+| Light Purple (Complementary) | `#DFDDE8` | ![](https://img.shields.io/badge/color-DFDDE8-DFDDE8?style=flat-square&logo=) |
 
 **Usage**: Titles, headers, primary brand elements, main visual hierarchy
 
@@ -242,12 +242,12 @@ sapply(uw_palettes, length)
 
 | Color Name | Hex Code | Preview |
 |------------|----------|---------|
-| Gold | `#C79900` | ![#C79900](https://via.placeholder.com/20/C79900/000000?text=+) |
-| Light Gold | `#D7C896` | ![#D7C896](https://via.placeholder.com/20/D7C896/000000?text=+) |
-| Bronze | `#8E632A` | ![#8E632A](https://via.placeholder.com/20/8E632A/000000?text=+) |
-| Black | `#000000` | ![#000000](https://via.placeholder.com/20/000000/FFFFFF?text=+) |
-| White | `#FFFFFF` | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/000000?text=+) |
-| Dark Gray | `#5D5D5D` | ![#5D5D5D](https://via.placeholder.com/20/5D5D5D/000000?text=+) |
+| Gold | `#C79900` | ![](https://img.shields.io/badge/color-C79900-C79900?style=flat-square&logo=) |
+| Light Gold | `#D7C896` | ![](https://img.shields.io/badge/color-D7C896-D7C896?style=flat-square&logo=) |
+| Bronze | `#8E632A` | ![](https://img.shields.io/badge/color-8E632A-8E632A?style=flat-square&logo=) |
+| Black | `#000000` | ![](https://img.shields.io/badge/color-000000-000000?style=flat-square&logo=) |
+| White | `#FFFFFF` | ![](https://img.shields.io/badge/color-FFFFFF-FFFFFF?style=flat-square&logo=) |
+| Dark Gray | `#5D5D5D` | ![](https://img.shields.io/badge/color-5D5D5D-5D5D5D?style=flat-square&logo=) |
 
 **Usage**: Text, backgrounds, secondary design elements, neutrals
 
@@ -256,12 +256,12 @@ sapply(uw_palettes, length)
 
 | Color Name | Hex Code | Preview |
 |------------|----------|---------|
-| Bright Gold | `#EBB700` | ![#EBB700](https://via.placeholder.com/20/EBB700/000000?text=+) |
-| Forest Green | `#5B8F22` | ![#5B8F22](https://via.placeholder.com/20/5B8F22/000000?text=+) |
-| Royal Blue | `#0046AD` | ![#0046AD](https://via.placeholder.com/20/0046AD/000000?text=+) |
-| Sky Blue | `#63B1E5` | ![#63B1E5](https://via.placeholder.com/20/63B1E5/000000?text=+) |
-| Cream | `#EDE8C4` | ![#EDE8C4](https://via.placeholder.com/20/EDE8C4/000000?text=+) |
-| Orange | `#C75B12` | ![#C75B12](https://via.placeholder.com/20/C75B12/000000?text=+) |
+| Bright Gold | `#EBB700` | ![](https://img.shields.io/badge/color-EBB700-EBB700?style=flat-square&logo=) |
+| Forest Green | `#5B8F22` | ![](https://img.shields.io/badge/color-5B8F22-5B8F22?style=flat-square&logo=) |
+| Royal Blue | `#0046AD` | ![](https://img.shields.io/badge/color-0046AD-0046AD?style=flat-square&logo=) |
+| Sky Blue | `#63B1E5` | ![](https://img.shields.io/badge/color-63B1E5-63B1E5?style=flat-square&logo=) |
+| Cream | `#EDE8C4` | ![](https://img.shields.io/badge/color-EDE8C4-EDE8C4?style=flat-square&logo=) |
+| Orange | `#C75B12` | ![](https://img.shields.io/badge/color-C75B12-C75B12?style=flat-square&logo=) |
 
 **Usage**: Call-to-action elements, highlights, data visualization, emphasis
 
@@ -270,12 +270,12 @@ sapply(uw_palettes, length)
 
 | Color Name | Hex Code | Preview |
 |------------|----------|---------|
-| Muted Gold | `#C79900` | ![#C79900](https://via.placeholder.com/20/C79900/000000?text=+) |
-| Olive Green | `#898F4B` | ![#898F4B](https://via.placeholder.com/20/898F4B/000000?text=+) |
-| Navy Blue | `#165788` | ![#165788](https://via.placeholder.com/20/165788/000000?text=+) |
-| Dusty Blue | `#93B1CC` | ![#93B1CC](https://via.placeholder.com/20/93B1CC/000000?text=+) |
-| Beige | `#DBCEAC` | ![#DBCEAC](https://via.placeholder.com/20/DBCEAC/000000?text=+) |
-| Rust | `#BD4F19` | ![#BD4F19](https://via.placeholder.com/20/BD4F19/000000?text=+) |
+| Muted Gold | `#C79900` | ![](https://img.shields.io/badge/color-C79900-C79900?style=flat-square&logo=) |
+| Olive Green | `#898F4B` | ![](https://img.shields.io/badge/color-898F4B-898F4B?style=flat-square&logo=) |
+| Navy Blue | `#165788` | ![](https://img.shields.io/badge/color-165788-165788?style=flat-square&logo=) |
+| Dusty Blue | `#93B1CC` | ![](https://img.shields.io/badge/color-93B1CC-93B1CC?style=flat-square&logo=) |
+| Beige | `#DBCEAC` | ![](https://img.shields.io/badge/color-DBCEAC-DBCEAC?style=flat-square&logo=) |
+| Rust | `#BD4F19` | ![](https://img.shields.io/badge/color-BD4F19-BD4F19?style=flat-square&logo=) |
 
 **Usage**: Backgrounds, subtle design elements, secondary data visualization
 
