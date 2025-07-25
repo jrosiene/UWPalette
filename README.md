@@ -43,16 +43,10 @@ The core UW brand colors featuring the official UW Purple and complementary tone
 uw_palette("primary")
 ```
 
-**Colors:** 
-- <span style="display:inline-block;width:20px;height:20px;background-color:#39275B;border:1px solid #ccc;vertical-align:middle;"></span> `#39275B` - UW Purple (primary brand color)
-- <span style="display:inline-block;width:20px;height:20px;background-color:#DFDDE8;border:1px solid #ccc;vertical-align:middle;"></span> `#DFDDE8` - Light Purple (complementary)
-
-<table>
-<tr>
-<td style="background-color:#39275B;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#39275B</td>
-<td style="background-color:#DFDDE8;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#DFDDE8</td>
-</tr>
-</table>
+| Color Name | Hex Code | Preview |
+|------------|----------|---------|
+| UW Purple (Primary Brand) | `#39275B` | ![#39275B](https://via.placeholder.com/20/39275B/000000?text=+) |
+| Light Purple (Complementary) | `#DFDDE8` | ![#DFDDE8](https://via.placeholder.com/20/DFDDE8/000000?text=+) |
 
 ### Secondary Palette
 Extended colors for supporting design elements and data visualization.
@@ -61,24 +55,14 @@ Extended colors for supporting design elements and data visualization.
 uw_palette("secondary")
 ```
 
-**Colors:**
-- <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;vertical-align:middle;"></span> `#C79900` - Gold
-- <span style="display:inline-block;width:20px;height:20px;background-color:#D7C896;border:1px solid #ccc;vertical-align:middle;"></span> `#D7C896` - Light Gold  
-- <span style="display:inline-block;width:20px;height:20px;background-color:#8E632A;border:1px solid #ccc;vertical-align:middle;"></span> `#8E632A` - Bronze
-- <span style="display:inline-block;width:20px;height:20px;background-color:#000000;border:1px solid #ccc;vertical-align:middle;"></span> `#000000` - Black
-- <span style="display:inline-block;width:20px;height:20px;background-color:#FFFFFF;border:1px solid #ccc;vertical-align:middle;"></span> `#FFFFFF` - White
-- <span style="display:inline-block;width:20px;height:20px;background-color:#5D5D5D;border:1px solid #ccc;vertical-align:middle;"></span> `#5D5D5D` - Dark Gray
-
-<table>
-<tr>
-<td style="background-color:#C79900;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C79900</td>
-<td style="background-color:#D7C896;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#D7C896</td>
-<td style="background-color:#8E632A;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#8E632A</td>
-<td style="background-color:#000000;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#000000</td>
-<td style="background-color:#FFFFFF;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#FFFFFF</td>
-<td style="background-color:#5D5D5D;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#5D5D5D</td>
-</tr>
-</table>
+| Color Name | Hex Code | Preview |
+|------------|----------|---------|
+| Gold | `#C79900` | ![#C79900](https://via.placeholder.com/20/C79900/000000?text=+) |
+| Light Gold | `#D7C896` | ![#D7C896](https://via.placeholder.com/20/D7C896/000000?text=+) |
+| Bronze | `#8E632A` | ![#8E632A](https://via.placeholder.com/20/8E632A/000000?text=+) |
+| Black | `#000000` | ![#000000](https://via.placeholder.com/20/000000/FFFFFF?text=+) |
+| White | `#FFFFFF` | ![#FFFFFF](https://via.placeholder.com/20/FFFFFF/000000?text=+) |
+| Dark Gray | `#5D5D5D` | ![#5D5D5D](https://via.placeholder.com/20/5D5D5D/000000?text=+) |
 
 ### Accent Palette
 Vibrant colors for highlighting and accent elements.
@@ -87,24 +71,14 @@ Vibrant colors for highlighting and accent elements.
 uw_palette("accent")
 ```
 
-**Colors:**
-- <span style="display:inline-block;width:20px;height:20px;background-color:#EBB700;border:1px solid #ccc;vertical-align:middle;"></span> `#EBB700` - Bright Gold
-- <span style="display:inline-block;width:20px;height:20px;background-color:#5B8F22;border:1px solid #ccc;vertical-align:middle;"></span> `#5B8F22` - Forest Green
-- <span style="display:inline-block;width:20px;height:20px;background-color:#0046AD;border:1px solid #ccc;vertical-align:middle;"></span> `#0046AD` - Royal Blue
-- <span style="display:inline-block;width:20px;height:20px;background-color:#63B1E5;border:1px solid #ccc;vertical-align:middle;"></span> `#63B1E5` - Sky Blue
-- <span style="display:inline-block;width:20px;height:20px;background-color:#EDE8C4;border:1px solid #ccc;vertical-align:middle;"></span> `#EDE8C4` - Cream
-- <span style="display:inline-block;width:20px;height:20px;background-color:#C75B12;border:1px solid #ccc;vertical-align:middle;"></span> `#C75B12` - Orange
-
-<table>
-<tr>
-<td style="background-color:#EBB700;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#EBB700</td>
-<td style="background-color:#5B8F22;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#5B8F22</td>
-<td style="background-color:#0046AD;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#0046AD</td>
-<td style="background-color:#63B1E5;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#63B1E5</td>
-<td style="background-color:#EDE8C4;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#EDE8C4</td>
-<td style="background-color:#C75B12;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C75B12</td>
-</tr>
-</table>
+| Color Name | Hex Code | Preview |
+|------------|----------|---------|
+| Bright Gold | `#EBB700` | ![#EBB700](https://via.placeholder.com/20/EBB700/000000?text=+) |
+| Forest Green | `#5B8F22` | ![#5B8F22](https://via.placeholder.com/20/5B8F22/000000?text=+) |
+| Royal Blue | `#0046AD` | ![#0046AD](https://via.placeholder.com/20/0046AD/000000?text=+) |
+| Sky Blue | `#63B1E5` | ![#63B1E5](https://via.placeholder.com/20/63B1E5/000000?text=+) |
+| Cream | `#EDE8C4` | ![#EDE8C4](https://via.placeholder.com/20/EDE8C4/000000?text=+) |
+| Orange | `#C75B12` | ![#C75B12](https://via.placeholder.com/20/C75B12/000000?text=+) |
 
 ### Muted Palette
 Subdued tones perfect for backgrounds and subtle design elements.
@@ -113,24 +87,14 @@ Subdued tones perfect for backgrounds and subtle design elements.
 uw_palette("muted")
 ```
 
-**Colors:**
-- <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;vertical-align:middle;"></span> `#C79900` - Muted Gold
-- <span style="display:inline-block;width:20px;height:20px;background-color:#898F4B;border:1px solid #ccc;vertical-align:middle;"></span> `#898F4B` - Olive Green
-- <span style="display:inline-block;width:20px;height:20px;background-color:#165788;border:1px solid #ccc;vertical-align:middle;"></span> `#165788` - Navy Blue
-- <span style="display:inline-block;width:20px;height:20px;background-color:#93B1CC;border:1px solid #ccc;vertical-align:middle;"></span> `#93B1CC` - Dusty Blue
-- <span style="display:inline-block;width:20px;height:20px;background-color:#DBCEAC;border:1px solid #ccc;vertical-align:middle;"></span> `#DBCEAC` - Beige
-- <span style="display:inline-block;width:20px;height:20px;background-color:#BD4F19;border:1px solid #ccc;vertical-align:middle;"></span> `#BD4F19` - Rust
-
-<table>
-<tr>
-<td style="background-color:#C79900;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C79900</td>
-<td style="background-color:#898F4B;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#898F4B</td>
-<td style="background-color:#165788;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#165788</td>
-<td style="background-color:#93B1CC;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#93B1CC</td>
-<td style="background-color:#DBCEAC;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#DBCEAC</td>
-<td style="background-color:#BD4F19;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#BD4F19</td>
-</tr>
-</table>
+| Color Name | Hex Code | Preview |
+|------------|----------|---------|
+| Muted Gold | `#C79900` | ![#C79900](https://via.placeholder.com/20/C79900/000000?text=+) |
+| Olive Green | `#898F4B` | ![#898F4B](https://via.placeholder.com/20/898F4B/000000?text=+) |
+| Navy Blue | `#165788` | ![#165788](https://via.placeholder.com/20/165788/000000?text=+) |
+| Dusty Blue | `#93B1CC` | ![#93B1CC](https://via.placeholder.com/20/93B1CC/000000?text=+) |
+| Beige | `#DBCEAC` | ![#DBCEAC](https://via.placeholder.com/20/DBCEAC/000000?text=+) |
+| Rust | `#BD4F19` | ![#BD4F19](https://via.placeholder.com/20/BD4F19/000000?text=+) |
 
 ## Usage Examples
 
