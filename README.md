@@ -44,13 +44,13 @@ uw_palette("primary")
 ```
 
 **Colors:** 
-- 🟣 `#39275B` - UW Purple (primary brand color)
-- 🟪 `#DFDDE8` - Light Purple (complementary)
+- <span style="display:inline-block;width:20px;height:20px;background-color:#39275B;border:1px solid #ccc;vertical-align:middle;"></span> `#39275B` - UW Purple (primary brand color)
+- <span style="display:inline-block;width:20px;height:20px;background-color:#DFDDE8;border:1px solid #ccc;vertical-align:middle;"></span> `#DFDDE8` - Light Purple (complementary)
 
 <table>
 <tr>
-<td bgcolor="#39275B" width="50" height="30" align="center"><b style="color:white">#39275B</b></td>
-<td bgcolor="#DFDDE8" width="50" height="30" align="center"><b style="color:black">#DFDDE8</b></td>
+<td style="background-color:#39275B;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#39275B</td>
+<td style="background-color:#DFDDE8;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#DFDDE8</td>
 </tr>
 </table>
 
@@ -62,21 +62,21 @@ uw_palette("secondary")
 ```
 
 **Colors:**
-- 🟨 `#C79900` - Gold
-- 🟡 `#D7C896` - Light Gold  
-- 🟤 `#8E632A` - Bronze
-- ⚫ `#000000` - Black
-- ⚪ `#FFFFFF` - White
-- ⬜ `#5D5D5D` - Dark Gray
+- <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;vertical-align:middle;"></span> `#C79900` - Gold
+- <span style="display:inline-block;width:20px;height:20px;background-color:#D7C896;border:1px solid #ccc;vertical-align:middle;"></span> `#D7C896` - Light Gold  
+- <span style="display:inline-block;width:20px;height:20px;background-color:#8E632A;border:1px solid #ccc;vertical-align:middle;"></span> `#8E632A` - Bronze
+- <span style="display:inline-block;width:20px;height:20px;background-color:#000000;border:1px solid #ccc;vertical-align:middle;"></span> `#000000` - Black
+- <span style="display:inline-block;width:20px;height:20px;background-color:#FFFFFF;border:1px solid #ccc;vertical-align:middle;"></span> `#FFFFFF` - White
+- <span style="display:inline-block;width:20px;height:20px;background-color:#5D5D5D;border:1px solid #ccc;vertical-align:middle;"></span> `#5D5D5D` - Dark Gray
 
 <table>
 <tr>
-<td bgcolor="#C79900" width="50" height="30" align="center"><b style="color:white">#C79900</b></td>
-<td bgcolor="#D7C896" width="50" height="30" align="center"><b style="color:black">#D7C896</b></td>
-<td bgcolor="#8E632A" width="50" height="30" align="center"><b style="color:white">#8E632A</b></td>
-<td bgcolor="#000000" width="50" height="30" align="center"><b style="color:white">#000000</b></td>
-<td bgcolor="#FFFFFF" width="50" height="30" align="center" style="border:1px solid #ccc"><b style="color:black">#FFFFFF</b></td>
-<td bgcolor="#5D5D5D" width="50" height="30" align="center"><b style="color:white">#5D5D5D</b></td>
+<td style="background-color:#C79900;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C79900</td>
+<td style="background-color:#D7C896;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#D7C896</td>
+<td style="background-color:#8E632A;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#8E632A</td>
+<td style="background-color:#000000;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#000000</td>
+<td style="background-color:#FFFFFF;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#FFFFFF</td>
+<td style="background-color:#5D5D5D;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#5D5D5D</td>
 </tr>
 </table>
 
@@ -88,21 +88,21 @@ uw_palette("accent")
 ```
 
 **Colors:**
-- 🟨 `#EBB700` - Bright Gold
-- 🟢 `#5B8F22` - Forest Green
-- 🔵 `#0046AD` - Royal Blue
-- 🔷 `#63B1E5` - Sky Blue
-- 🟫 `#EDE8C4` - Cream
-- 🟠 `#C75B12` - Orange
+- <span style="display:inline-block;width:20px;height:20px;background-color:#EBB700;border:1px solid #ccc;vertical-align:middle;"></span> `#EBB700` - Bright Gold
+- <span style="display:inline-block;width:20px;height:20px;background-color:#5B8F22;border:1px solid #ccc;vertical-align:middle;"></span> `#5B8F22` - Forest Green
+- <span style="display:inline-block;width:20px;height:20px;background-color:#0046AD;border:1px solid #ccc;vertical-align:middle;"></span> `#0046AD` - Royal Blue
+- <span style="display:inline-block;width:20px;height:20px;background-color:#63B1E5;border:1px solid #ccc;vertical-align:middle;"></span> `#63B1E5` - Sky Blue
+- <span style="display:inline-block;width:20px;height:20px;background-color:#EDE8C4;border:1px solid #ccc;vertical-align:middle;"></span> `#EDE8C4` - Cream
+- <span style="display:inline-block;width:20px;height:20px;background-color:#C75B12;border:1px solid #ccc;vertical-align:middle;"></span> `#C75B12` - Orange
 
 <table>
 <tr>
-<td bgcolor="#EBB700" width="50" height="30" align="center"><b style="color:black">#EBB700</b></td>
-<td bgcolor="#5B8F22" width="50" height="30" align="center"><b style="color:white">#5B8F22</b></td>
-<td bgcolor="#0046AD" width="50" height="30" align="center"><b style="color:white">#0046AD</b></td>
-<td bgcolor="#63B1E5" width="50" height="30" align="center"><b style="color:black">#63B1E5</b></td>
-<td bgcolor="#EDE8C4" width="50" height="30" align="center"><b style="color:black">#EDE8C4</b></td>
-<td bgcolor="#C75B12" width="50" height="30" align="center"><b style="color:white">#C75B12</b></td>
+<td style="background-color:#EBB700;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#EBB700</td>
+<td style="background-color:#5B8F22;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#5B8F22</td>
+<td style="background-color:#0046AD;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#0046AD</td>
+<td style="background-color:#63B1E5;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#63B1E5</td>
+<td style="background-color:#EDE8C4;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#EDE8C4</td>
+<td style="background-color:#C75B12;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C75B12</td>
 </tr>
 </table>
 
@@ -114,21 +114,21 @@ uw_palette("muted")
 ```
 
 **Colors:**
-- 🟨 `#C79900` - Muted Gold
-- 🫒 `#898F4B` - Olive Green
-- 🔷 `#165788` - Navy Blue
-- 🔵 `#93B1CC` - Dusty Blue
-- 🟫 `#DBCEAC` - Beige
-- 🟤 `#BD4F19` - Rust
+- <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;vertical-align:middle;"></span> `#C79900` - Muted Gold
+- <span style="display:inline-block;width:20px;height:20px;background-color:#898F4B;border:1px solid #ccc;vertical-align:middle;"></span> `#898F4B` - Olive Green
+- <span style="display:inline-block;width:20px;height:20px;background-color:#165788;border:1px solid #ccc;vertical-align:middle;"></span> `#165788` - Navy Blue
+- <span style="display:inline-block;width:20px;height:20px;background-color:#93B1CC;border:1px solid #ccc;vertical-align:middle;"></span> `#93B1CC` - Dusty Blue
+- <span style="display:inline-block;width:20px;height:20px;background-color:#DBCEAC;border:1px solid #ccc;vertical-align:middle;"></span> `#DBCEAC` - Beige
+- <span style="display:inline-block;width:20px;height:20px;background-color:#BD4F19;border:1px solid #ccc;vertical-align:middle;"></span> `#BD4F19` - Rust
 
 <table>
 <tr>
-<td bgcolor="#C79900" width="50" height="30" align="center"><b style="color:white">#C79900</b></td>
-<td bgcolor="#898F4B" width="50" height="30" align="center"><b style="color:white">#898F4B</b></td>
-<td bgcolor="#165788" width="50" height="30" align="center"><b style="color:white">#165788</b></td>
-<td bgcolor="#93B1CC" width="50" height="30" align="center"><b style="color:black">#93B1CC</b></td>
-<td bgcolor="#DBCEAC" width="50" height="30" align="center"><b style="color:black">#DBCEAC</b></td>
-<td bgcolor="#BD4F19" width="50" height="30" align="center"><b style="color:white">#BD4F19</b></td>
+<td style="background-color:#C79900;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#C79900</td>
+<td style="background-color:#898F4B;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#898F4B</td>
+<td style="background-color:#165788;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#165788</td>
+<td style="background-color:#93B1CC;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#93B1CC</td>
+<td style="background-color:#DBCEAC;width:80px;height:40px;text-align:center;vertical-align:middle;color:black;font-weight:bold;border:1px solid #ddd;">#DBCEAC</td>
+<td style="background-color:#BD4F19;width:80px;height:40px;text-align:center;vertical-align:middle;color:white;font-weight:bold;border:1px solid #ddd;">#BD4F19</td>
 </tr>
 </table>
 

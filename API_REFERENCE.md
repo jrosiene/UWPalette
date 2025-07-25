@@ -232,8 +232,8 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| 🟣 | `#39275B` | UW Purple (Primary Brand) |
-| 🟪 | `#DFDDE8` | Light Purple (Complementary) |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#39275B;border:1px solid #ccc;"></span> | `#39275B` | UW Purple (Primary Brand) |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#DFDDE8;border:1px solid #ccc;"></span> | `#DFDDE8` | Light Purple (Complementary) |
 
 **Usage**: Titles, headers, primary brand elements, main visual hierarchy
 
@@ -242,12 +242,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| 🟨 | `#C79900` | Gold |
-| 🟡 | `#D7C896` | Light Gold |
-| 🟤 | `#8E632A` | Bronze |
-| ⚫ | `#000000` | Black |
-| ⚪ | `#FFFFFF` | White |
-| ⬜ | `#5D5D5D` | Dark Gray |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;"></span> | `#C79900` | Gold |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#D7C896;border:1px solid #ccc;"></span> | `#D7C896` | Light Gold |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#8E632A;border:1px solid #ccc;"></span> | `#8E632A` | Bronze |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#000000;border:1px solid #ccc;"></span> | `#000000` | Black |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#FFFFFF;border:1px solid #ccc;"></span> | `#FFFFFF` | White |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#5D5D5D;border:1px solid #ccc;"></span> | `#5D5D5D` | Dark Gray |
 
 **Usage**: Text, backgrounds, secondary design elements, neutrals
 
@@ -256,12 +256,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| 🟨 | `#EBB700` | Bright Gold |
-| 🟢 | `#5B8F22` | Forest Green |
-| 🔵 | `#0046AD` | Royal Blue |
-| 🔷 | `#63B1E5` | Sky Blue |
-| 🟫 | `#EDE8C4` | Cream |
-| 🟠 | `#C75B12` | Orange |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#EBB700;border:1px solid #ccc;"></span> | `#EBB700` | Bright Gold |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#5B8F22;border:1px solid #ccc;"></span> | `#5B8F22` | Forest Green |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#0046AD;border:1px solid #ccc;"></span> | `#0046AD` | Royal Blue |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#63B1E5;border:1px solid #ccc;"></span> | `#63B1E5` | Sky Blue |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#EDE8C4;border:1px solid #ccc;"></span> | `#EDE8C4` | Cream |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#C75B12;border:1px solid #ccc;"></span> | `#C75B12` | Orange |
 
 **Usage**: Call-to-action elements, highlights, data visualization, emphasis
 
@@ -270,12 +270,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| 🟨 | `#C79900` | Muted Gold |
-| 🫒 | `#898F4B` | Olive Green |
-| 🔷 | `#165788` | Navy Blue |
-| 🔵 | `#93B1CC` | Dusty Blue |
-| 🟫 | `#DBCEAC` | Beige |
-| 🟤 | `#BD4F19` | Rust |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#C79900;border:1px solid #ccc;"></span> | `#C79900` | Muted Gold |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#898F4B;border:1px solid #ccc;"></span> | `#898F4B` | Olive Green |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#165788;border:1px solid #ccc;"></span> | `#165788` | Navy Blue |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#93B1CC;border:1px solid #ccc;"></span> | `#93B1CC` | Dusty Blue |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#DBCEAC;border:1px solid #ccc;"></span> | `#DBCEAC` | Beige |
+| <span style="display:inline-block;width:20px;height:20px;background-color:#BD4F19;border:1px solid #ccc;"></span> | `#BD4F19` | Rust |
 
 **Usage**: Backgrounds, subtle design elements, secondary data visualization
 
