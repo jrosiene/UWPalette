@@ -232,8 +232,8 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| ![#39275B](https://via.placeholder.com/20x20/39275B/FFFFFF?text=+) | `#39275B` | UW Purple (Primary Brand) |
-| ![#DFDDE8](https://via.placeholder.com/20x20/DFDDE8/000000?text=+) | `#DFDDE8` | Light Purple (Complementary) |
+| 🟣 | `#39275B` | UW Purple (Primary Brand) |
+| 🟪 | `#DFDDE8` | Light Purple (Complementary) |
 
 **Usage**: Titles, headers, primary brand elements, main visual hierarchy
 
@@ -242,12 +242,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| ![#C79900](https://via.placeholder.com/20x20/C79900/FFFFFF?text=+) | `#C79900` | Gold |
-| ![#D7C896](https://via.placeholder.com/20x20/D7C896/000000?text=+) | `#D7C896` | Light Gold |
-| ![#8E632A](https://via.placeholder.com/20x20/8E632A/FFFFFF?text=+) | `#8E632A` | Bronze |
-| ![#000000](https://via.placeholder.com/20x20/000000/FFFFFF?text=+) | `#000000` | Black |
-| ![#FFFFFF](https://via.placeholder.com/20x20/FFFFFF/000000?text=+) | `#FFFFFF` | White |
-| ![#5D5D5D](https://via.placeholder.com/20x20/5D5D5D/FFFFFF?text=+) | `#5D5D5D` | Dark Gray |
+| 🟨 | `#C79900` | Gold |
+| 🟡 | `#D7C896` | Light Gold |
+| 🟤 | `#8E632A` | Bronze |
+| ⚫ | `#000000` | Black |
+| ⚪ | `#FFFFFF` | White |
+| ⬜ | `#5D5D5D` | Dark Gray |
 
 **Usage**: Text, backgrounds, secondary design elements, neutrals
 
@@ -256,12 +256,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| ![#EBB700](https://via.placeholder.com/20x20/EBB700/000000?text=+) | `#EBB700` | Bright Gold |
-| ![#5B8F22](https://via.placeholder.com/20x20/5B8F22/FFFFFF?text=+) | `#5B8F22` | Forest Green |
-| ![#0046AD](https://via.placeholder.com/20x20/0046AD/FFFFFF?text=+) | `#0046AD` | Royal Blue |
-| ![#63B1E5](https://via.placeholder.com/20x20/63B1E5/000000?text=+) | `#63B1E5` | Sky Blue |
-| ![#EDE8C4](https://via.placeholder.com/20x20/EDE8C4/000000?text=+) | `#EDE8C4` | Cream |
-| ![#C75B12](https://via.placeholder.com/20x20/C75B12/FFFFFF?text=+) | `#C75B12` | Orange |
+| 🟨 | `#EBB700` | Bright Gold |
+| 🟢 | `#5B8F22` | Forest Green |
+| 🔵 | `#0046AD` | Royal Blue |
+| 🔷 | `#63B1E5` | Sky Blue |
+| 🟫 | `#EDE8C4` | Cream |
+| 🟠 | `#C75B12` | Orange |
 
 **Usage**: Call-to-action elements, highlights, data visualization, emphasis
 
@@ -270,12 +270,12 @@ sapply(uw_palettes, length)
 
 | Color | Hex Code | Description |
 |-------|----------|-------------|
-| ![#C79900](https://via.placeholder.com/20x20/C79900/FFFFFF?text=+) | `#C79900` | Muted Gold |
-| ![#898F4B](https://via.placeholder.com/20x20/898F4B/FFFFFF?text=+) | `#898F4B` | Olive Green |
-| ![#165788](https://via.placeholder.com/20x20/165788/FFFFFF?text=+) | `#165788` | Navy Blue |
-| ![#93B1CC](https://via.placeholder.com/20x20/93B1CC/000000?text=+) | `#93B1CC` | Dusty Blue |
-| ![#DBCEAC](https://via.placeholder.com/20x20/DBCEAC/000000?text=+) | `#DBCEAC` | Beige |
-| ![#BD4F19](https://via.placeholder.com/20x20/BD4F19/FFFFFF?text=+) | `#BD4F19` | Rust |
+| 🟨 | `#C79900` | Muted Gold |
+| 🫒 | `#898F4B` | Olive Green |
+| 🔷 | `#165788` | Navy Blue |
+| 🔵 | `#93B1CC` | Dusty Blue |
+| 🟫 | `#DBCEAC` | Beige |
+| 🟤 | `#BD4F19` | Rust |
 
 **Usage**: Backgrounds, subtle design elements, secondary data visualization
 

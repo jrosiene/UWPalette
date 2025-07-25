@@ -44,10 +44,15 @@ uw_palette("primary")
 ```
 
 **Colors:** 
-- `#39275B` - UW Purple (primary brand color)
-- `#DFDDE8` - Light Purple (complementary)
+- 🟣 `#39275B` - UW Purple (primary brand color)
+- 🟪 `#DFDDE8` - Light Purple (complementary)
 
-![Primary Palette](https://via.placeholder.com/50x30/39275B/FFFFFF?text=+) ![Primary Palette](https://via.placeholder.com/50x30/DFDDE8/000000?text=+)
+<table>
+<tr>
+<td bgcolor="#39275B" width="50" height="30" align="center"><b style="color:white">#39275B</b></td>
+<td bgcolor="#DFDDE8" width="50" height="30" align="center"><b style="color:black">#DFDDE8</b></td>
+</tr>
+</table>
 
 ### Secondary Palette
 Extended colors for supporting design elements and data visualization.
@@ -57,14 +62,23 @@ uw_palette("secondary")
 ```
 
 **Colors:**
-- `#C79900` - Gold
-- `#D7C896` - Light Gold  
-- `#8E632A` - Bronze
-- `#000000` - Black
-- `#FFFFFF` - White
-- `#5D5D5D` - Dark Gray
+- 🟨 `#C79900` - Gold
+- 🟡 `#D7C896` - Light Gold  
+- 🟤 `#8E632A` - Bronze
+- ⚫ `#000000` - Black
+- ⚪ `#FFFFFF` - White
+- ⬜ `#5D5D5D` - Dark Gray
 
-![Secondary Palette](https://via.placeholder.com/50x30/C79900/FFFFFF?text=+) ![Secondary Palette](https://via.placeholder.com/50x30/D7C896/000000?text=+) ![Secondary Palette](https://via.placeholder.com/50x30/8E632A/FFFFFF?text=+) ![Secondary Palette](https://via.placeholder.com/50x30/000000/FFFFFF?text=+) ![Secondary Palette](https://via.placeholder.com/50x30/FFFFFF/000000?text=+) ![Secondary Palette](https://via.placeholder.com/50x30/5D5D5D/FFFFFF?text=+)
+<table>
+<tr>
+<td bgcolor="#C79900" width="50" height="30" align="center"><b style="color:white">#C79900</b></td>
+<td bgcolor="#D7C896" width="50" height="30" align="center"><b style="color:black">#D7C896</b></td>
+<td bgcolor="#8E632A" width="50" height="30" align="center"><b style="color:white">#8E632A</b></td>
+<td bgcolor="#000000" width="50" height="30" align="center"><b style="color:white">#000000</b></td>
+<td bgcolor="#FFFFFF" width="50" height="30" align="center" style="border:1px solid #ccc"><b style="color:black">#FFFFFF</b></td>
+<td bgcolor="#5D5D5D" width="50" height="30" align="center"><b style="color:white">#5D5D5D</b></td>
+</tr>
+</table>
 
 ### Accent Palette
 Vibrant colors for highlighting and accent elements.
@@ -74,14 +88,23 @@ uw_palette("accent")
 ```
 
 **Colors:**
-- `#EBB700` - Bright Gold
-- `#5B8F22` - Forest Green
-- `#0046AD` - Royal Blue
-- `#63B1E5` - Sky Blue
-- `#EDE8C4` - Cream
-- `#C75B12` - Orange
+- 🟨 `#EBB700` - Bright Gold
+- 🟢 `#5B8F22` - Forest Green
+- 🔵 `#0046AD` - Royal Blue
+- 🔷 `#63B1E5` - Sky Blue
+- 🟫 `#EDE8C4` - Cream
+- 🟠 `#C75B12` - Orange
 
-![Accent Palette](https://via.placeholder.com/50x30/EBB700/000000?text=+) ![Accent Palette](https://via.placeholder.com/50x30/5B8F22/FFFFFF?text=+) ![Accent Palette](https://via.placeholder.com/50x30/0046AD/FFFFFF?text=+) ![Accent Palette](https://via.placeholder.com/50x30/63B1E5/000000?text=+) ![Accent Palette](https://via.placeholder.com/50x30/EDE8C4/000000?text=+) ![Accent Palette](https://via.placeholder.com/50x30/C75B12/FFFFFF?text=+)
+<table>
+<tr>
+<td bgcolor="#EBB700" width="50" height="30" align="center"><b style="color:black">#EBB700</b></td>
+<td bgcolor="#5B8F22" width="50" height="30" align="center"><b style="color:white">#5B8F22</b></td>
+<td bgcolor="#0046AD" width="50" height="30" align="center"><b style="color:white">#0046AD</b></td>
+<td bgcolor="#63B1E5" width="50" height="30" align="center"><b style="color:black">#63B1E5</b></td>
+<td bgcolor="#EDE8C4" width="50" height="30" align="center"><b style="color:black">#EDE8C4</b></td>
+<td bgcolor="#C75B12" width="50" height="30" align="center"><b style="color:white">#C75B12</b></td>
+</tr>
+</table>
 
 ### Muted Palette
 Subdued tones perfect for backgrounds and subtle design elements.
@@ -91,14 +114,23 @@ uw_palette("muted")
 ```
 
 **Colors:**
-- `#C79900` - Muted Gold
-- `#898F4B` - Olive Green
-- `#165788` - Navy Blue
-- `#93B1CC` - Dusty Blue
-- `#DBCEAC` - Beige
-- `#BD4F19` - Rust
+- 🟨 `#C79900` - Muted Gold
+- 🫒 `#898F4B` - Olive Green
+- 🔷 `#165788` - Navy Blue
+- 🔵 `#93B1CC` - Dusty Blue
+- 🟫 `#DBCEAC` - Beige
+- 🟤 `#BD4F19` - Rust
 
-![Muted Palette](https://via.placeholder.com/50x30/C79900/FFFFFF?text=+) ![Muted Palette](https://via.placeholder.com/50x30/898F4B/FFFFFF?text=+) ![Muted Palette](https://via.placeholder.com/50x30/165788/FFFFFF?text=+) ![Muted Palette](https://via.placeholder.com/50x30/93B1CC/000000?text=+) ![Muted Palette](https://via.placeholder.com/50x30/DBCEAC/000000?text=+) ![Muted Palette](https://via.placeholder.com/50x30/BD4F19/FFFFFF?text=+)
+<table>
+<tr>
+<td bgcolor="#C79900" width="50" height="30" align="center"><b style="color:white">#C79900</b></td>
+<td bgcolor="#898F4B" width="50" height="30" align="center"><b style="color:white">#898F4B</b></td>
+<td bgcolor="#165788" width="50" height="30" align="center"><b style="color:white">#165788</b></td>
+<td bgcolor="#93B1CC" width="50" height="30" align="center"><b style="color:black">#93B1CC</b></td>
+<td bgcolor="#DBCEAC" width="50" height="30" align="center"><b style="color:black">#DBCEAC</b></td>
+<td bgcolor="#BD4F19" width="50" height="30" align="center"><b style="color:white">#BD4F19</b></td>
+</tr>
+</table>
 
 ## Usage Examples
 
