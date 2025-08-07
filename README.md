@@ -15,7 +15,7 @@ if (!require(devtools)) {
 }
 
 # Install UWPalette
-devtools::install_github("your-username/UWPalette")
+devtools::install_github("jrosiene/UWPalette")
 ```
 
 ## Quick Start
